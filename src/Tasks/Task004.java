@@ -15,7 +15,7 @@ public class Task004 {
         if(firstside == secondside && secondside == thirdside){
             System.out.println("equilateral triangle");}
             else if (firstside == secondside || secondside == thirdside || thirdside == firstside) {
-            System.out.println("isosceles triangle");
+            System.out.println("isosceles triangle ");
         }
             else {
             System.out.println("scalene triangle");
