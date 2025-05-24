@@ -15,7 +15,7 @@ public class Task006Year_Problem {
                 System.out.println("31 Days");
                 break;
             case 4,6,9,11:
-                System.out.println("31 Days");
+                System.out.println("30 Days");
                 break;
             case 2:
                 if(year%4==0){
