@@ -12,6 +12,12 @@ public class Carclass {
         model = "XXXX";
         System.out.println("DC");
     }
+    Carclass(String Carname , int Caryear, String carmodel){
+        this.name = Carname;
+        this.year = Caryear;
+        this.model = carmodel;
+    }
+
     void Running(){
         System.out.println("Car is Running");
     }
