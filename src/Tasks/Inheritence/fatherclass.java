@@ -1,6 +1,6 @@
 package Tasks.Inheritence;
 
-public class fatherclass {
+public class fatherclass  extends Grandfatherclass{
 
     Integer gold_f = 1000;
 
