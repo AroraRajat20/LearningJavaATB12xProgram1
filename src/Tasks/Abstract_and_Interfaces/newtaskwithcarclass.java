@@ -20,12 +20,37 @@ public class newtaskwithcarclass {
 
 
 
+
+
+
+
+
+class newfuntion implements Tyre{
+
+    void drive(){
+        tyretype();
+        griptype();
+
+    }
+    @Override
+    public void tyretype() {
+
+    }
+
+    @Override
+    public void griptype() {
+
+    }
+}
+
+
 class Nano extends car implements Tyre, gearbox{
     void drive(){
         tyretype();
         griptype();
         startengine();
         changing_gear();
+        drifting();
         apply_brakes();
         stopengine();
 
@@ -64,6 +89,9 @@ interface Tyre{
 interface gearbox{
     void changing_gear();
     void apply_brakes();
+    default void drifting(){
+        System.out.println("doing drifiting");
+    }
 }
 abstract class car{
     abstract void startengine();
